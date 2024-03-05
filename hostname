@@ -1,0 +1,8 @@
+# Import the socket module
+import socket
+
+# Get the hostname using socket.gethostname()
+hostname = socket.gethostname()
+
+# Print the hostname
+print("Your system hostname is:", hostname)
